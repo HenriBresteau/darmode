@@ -58,4 +58,22 @@ main {
 .fa-moon {
     color: #333;
 }
+
+/* DARK MODE */
+.dark {
+    background: #333;
+    transition: 2.5s ;
+}
+.dark main {
+    background: #09FBBA;
+    transition: 2.5s ;
+}
+.dark .label {
+    box-shadow: 2px 1px 1px #09FBBA;
+    background: #888;
+    transition: 2.5s ;
+}
+.dark .label .ball {
+    background: #09FBBA;
+}
 /*# sourceMappingURL=style.css.map */
